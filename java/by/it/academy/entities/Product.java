@@ -1,11 +1,12 @@
 package by.it.academy.entities;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.List;
 
+@Component
 @Entity
 @Table(name = "products")
 @Data

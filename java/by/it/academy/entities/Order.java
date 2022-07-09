@@ -1,6 +1,7 @@
 package by.it.academy.entities;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -8,6 +9,7 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 @Entity
 @Table(name = "orders")
 @Data
